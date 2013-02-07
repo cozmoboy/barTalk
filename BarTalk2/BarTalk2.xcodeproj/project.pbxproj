@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B635CD716C3442A003C4813 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B635CD616C3442A003C4813 /* UIKit.framework */; };
+		6B635CD916C3442A003C4813 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B635CD816C3442A003C4813 /* Foundation.framework */; };
+		6B635CDB16C3442A003C4813 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B635CDA16C3442A003C4813 /* CoreGraphics.framework */; };
+		6B635CE116C3442A003C4813 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B635CDF16C3442A003C4813 /* InfoPlist.strings */; };
+		6B635CE316C3442A003C4813 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B635CE216C3442A003C4813 /* main.m */; };
+		6B635CE716C3442A003C4813 /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B635CE616C3442A003C4813 /* MMAppDelegate.m */; };
+		6B635CE916C3442A003C4813 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B635CE816C3442A003C4813 /* Default.png */; };
+		6B635CEB16C3442A003C4813 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B635CEA16C3442A003C4813 /* Default@2x.png */; };
+		6B635CED16C3442A003C4813 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B635CEC16C3442A003C4813 /* Default-568h@2x.png */; };
+		6B635CF016C3442A003C4813 /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B635CEF16C3442A003C4813 /* MMViewController.m */; };
+		6B635CF316C3442A003C4813 /* MMViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B635CF116C3442A003C4813 /* MMViewController_iPhone.xib */; };
+		6B635CF616C3442A003C4813 /* MMViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B635CF416C3442A003C4813 /* MMViewController_iPad.xib */; };
+		6B635CFE16C345F6003C4813 /* MMUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B635CFD16C345F6003C4813 /* MMUITextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B635CD316C3442A003C4813 /* BarTalk2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarTalk2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B635CD616C3442A003C4813 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B635CD816C3442A003C4813 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B635CDA16C3442A003C4813 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6B635CDE16C3442A003C4813 /* BarTalk2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BarTalk2-Info.plist"; sourceTree = "<group>"; };
+		6B635CE016C3442A003C4813 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B635CE216C3442A003C4813 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B635CE416C3442A003C4813 /* BarTalk2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BarTalk2-Prefix.pch"; sourceTree = "<group>"; };
+		6B635CE516C3442A003C4813 /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		6B635CE616C3442A003C4813 /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+		6B635CE816C3442A003C4813 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6B635CEA16C3442A003C4813 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6B635CEC16C3442A003C4813 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6B635CEE16C3442A003C4813 /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
+		6B635CEF16C3442A003C4813 /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
+		6B635CF216C3442A003C4813 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MMViewController_iPhone.xib; sourceTree = "<group>"; };
+		6B635CF516C3442A003C4813 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MMViewController_iPad.xib; sourceTree = "<group>"; };
+		6B635CFC16C345F6003C4813 /* MMUITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMUITextField.h; sourceTree = "<group>"; };
+		6B635CFD16C345F6003C4813 /* MMUITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMUITextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B635CD016C3442A003C4813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B635CD716C3442A003C4813 /* UIKit.framework in Frameworks */,
+				6B635CD916C3442A003C4813 /* Foundation.framework in Frameworks */,
+				6B635CDB16C3442A003C4813 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B635CCA16C3442A003C4813 = {
+			isa = PBXGroup;
+			children = (
+				6B635CDC16C3442A003C4813 /* BarTalk2 */,
+				6B635CD516C3442A003C4813 /* Frameworks */,
+				6B635CD416C3442A003C4813 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B635CD416C3442A003C4813 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B635CD316C3442A003C4813 /* BarTalk2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B635CD516C3442A003C4813 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B635CD616C3442A003C4813 /* UIKit.framework */,
+				6B635CD816C3442A003C4813 /* Foundation.framework */,
+				6B635CDA16C3442A003C4813 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B635CDC16C3442A003C4813 /* BarTalk2 */ = {
+			isa = PBXGroup;
+			children = (
+				6B635CE516C3442A003C4813 /* MMAppDelegate.h */,
+				6B635CE616C3442A003C4813 /* MMAppDelegate.m */,
+				6B635CEE16C3442A003C4813 /* MMViewController.h */,
+				6B635CEF16C3442A003C4813 /* MMViewController.m */,
+				6B635CFC16C345F6003C4813 /* MMUITextField.h */,
+				6B635CFD16C345F6003C4813 /* MMUITextField.m */,
+				6B635CF116C3442A003C4813 /* MMViewController_iPhone.xib */,
+				6B635CF416C3442A003C4813 /* MMViewController_iPad.xib */,
+				6B635CDD16C3442A003C4813 /* Supporting Files */,
+			);
+			path = BarTalk2;
+			sourceTree = "<group>";
+		};
+		6B635CDD16C3442A003C4813 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B635CDE16C3442A003C4813 /* BarTalk2-Info.plist */,
+				6B635CDF16C3442A003C4813 /* InfoPlist.strings */,
+				6B635CE216C3442A003C4813 /* main.m */,
+				6B635CE416C3442A003C4813 /* BarTalk2-Prefix.pch */,
+				6B635CE816C3442A003C4813 /* Default.png */,
+				6B635CEA16C3442A003C4813 /* Default@2x.png */,
+				6B635CEC16C3442A003C4813 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B635CD216C3442A003C4813 /* BarTalk2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B635CF916C3442A003C4813 /* Build configuration list for PBXNativeTarget "BarTalk2" */;
+			buildPhases = (
+				6B635CCF16C3442A003C4813 /* Sources */,
+				6B635CD016C3442A003C4813 /* Frameworks */,
+				6B635CD116C3442A003C4813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarTalk2;
+			productName = BarTalk2;
+			productReference = 6B635CD316C3442A003C4813 /* BarTalk2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B635CCB16C3442A003C4813 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "David Johnston";
+			};
+			buildConfigurationList = 6B635CCE16C3442A003C4813 /* Build configuration list for PBXProject "BarTalk2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B635CCA16C3442A003C4813;
+			productRefGroup = 6B635CD416C3442A003C4813 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B635CD216C3442A003C4813 /* BarTalk2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B635CD116C3442A003C4813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B635CE116C3442A003C4813 /* InfoPlist.strings in Resources */,
+				6B635CE916C3442A003C4813 /* Default.png in Resources */,
+				6B635CEB16C3442A003C4813 /* Default@2x.png in Resources */,
+				6B635CED16C3442A003C4813 /* Default-568h@2x.png in Resources */,
+				6B635CF316C3442A003C4813 /* MMViewController_iPhone.xib in Resources */,
+				6B635CF616C3442A003C4813 /* MMViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B635CCF16C3442A003C4813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B635CE316C3442A003C4813 /* main.m in Sources */,
+				6B635CE716C3442A003C4813 /* MMAppDelegate.m in Sources */,
+				6B635CF016C3442A003C4813 /* MMViewController.m in Sources */,
+				6B635CFE16C345F6003C4813 /* MMUITextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B635CDF16C3442A003C4813 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B635CE016C3442A003C4813 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6B635CF116C3442A003C4813 /* MMViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B635CF216C3442A003C4813 /* en */,
+			);
+			name = MMViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		6B635CF416C3442A003C4813 /* MMViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B635CF516C3442A003C4813 /* en */,
+			);
+			name = MMViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B635CF716C3442A003C4813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B635CF816C3442A003C4813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B635CFA16C3442A003C4813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarTalk2/BarTalk2-Prefix.pch";
+				INFOPLIST_FILE = "BarTalk2/BarTalk2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B635CFB16C3442A003C4813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarTalk2/BarTalk2-Prefix.pch";
+				INFOPLIST_FILE = "BarTalk2/BarTalk2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B635CCE16C3442A003C4813 /* Build configuration list for PBXProject "BarTalk2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B635CF716C3442A003C4813 /* Debug */,
+				6B635CF816C3442A003C4813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B635CF916C3442A003C4813 /* Build configuration list for PBXNativeTarget "BarTalk2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B635CFA16C3442A003C4813 /* Debug */,
+				6B635CFB16C3442A003C4813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B635CCB16C3442A003C4813 /* Project object */;
+}

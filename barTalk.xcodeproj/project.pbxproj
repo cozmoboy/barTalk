@@ -19,6 +19,8 @@
 		6B635CB816C2F401003C4813 /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B635CB716C2F401003C4813 /* MMViewController.m */; };
 		6B635CBB16C2F401003C4813 /* MMViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B635CB916C2F401003C4813 /* MMViewController_iPhone.xib */; };
 		6B635CBE16C2F401003C4813 /* MMViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B635CBC16C2F401003C4813 /* MMViewController_iPad.xib */; };
+		6B635CC616C2F7D2003C4813 /* MMSantasLittleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B635CC516C2F7D2003C4813 /* MMSantasLittleHelper.m */; };
+		6B635CC916C30D95003C4813 /* MMUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B635CC816C30D95003C4813 /* MMUITextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,10 @@
 		6B635CB716C2F401003C4813 /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
 		6B635CBA16C2F401003C4813 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MMViewController_iPhone.xib; sourceTree = "<group>"; };
 		6B635CBD16C2F401003C4813 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MMViewController_iPad.xib; sourceTree = "<group>"; };
+		6B635CC416C2F7D2003C4813 /* MMSantasLittleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSantasLittleHelper.h; sourceTree = "<group>"; };
+		6B635CC516C2F7D2003C4813 /* MMSantasLittleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSantasLittleHelper.m; sourceTree = "<group>"; };
+		6B635CC716C30D95003C4813 /* MMUITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMUITextField.h; sourceTree = "<group>"; };
+		6B635CC816C30D95003C4813 /* MMUITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMUITextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +93,12 @@
 			children = (
 				6B635CAD16C2F401003C4813 /* MMAppDelegate.h */,
 				6B635CAE16C2F401003C4813 /* MMAppDelegate.m */,
+				6B635CC416C2F7D2003C4813 /* MMSantasLittleHelper.h */,
+				6B635CC516C2F7D2003C4813 /* MMSantasLittleHelper.m */,
 				6B635CB616C2F401003C4813 /* MMViewController.h */,
 				6B635CB716C2F401003C4813 /* MMViewController.m */,
+				6B635CC716C30D95003C4813 /* MMUITextField.h */,
+				6B635CC816C30D95003C4813 /* MMUITextField.m */,
 				6B635CB916C2F401003C4813 /* MMViewController_iPhone.xib */,
 				6B635CBC16C2F401003C4813 /* MMViewController_iPad.xib */,
 				6B635CA516C2F401003C4813 /* Supporting Files */,
@@ -181,6 +191,8 @@
 				6B635CAB16C2F401003C4813 /* main.m in Sources */,
 				6B635CAF16C2F401003C4813 /* MMAppDelegate.m in Sources */,
 				6B635CB816C2F401003C4813 /* MMViewController.m in Sources */,
+				6B635CC616C2F7D2003C4813 /* MMSantasLittleHelper.m in Sources */,
+				6B635CC916C30D95003C4813 /* MMUITextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

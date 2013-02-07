@@ -1,39 +1,21 @@
 //
 //  MMAppDelegate.m
-//  barTalk
+//  BarTalk2
 //
 //  Created by David Johnston on 2/6/13.
 //  Copyright (c) 2013 David Johnston. All rights reserved.
 //
-//  Poop Butt pants poop.
 
-//
-//These  are imported files
-//
-//
 #import "MMAppDelegate.h"
-#import "MMSantasLittleHelper.h"
+
 #import "MMViewController.h"
 
-//
-//this is where implementation of a class starts
-//
-
-@implementation MMAppDelegate 
-
-- (BOOL)isAwesomeLevelHighEnough:(int)awesomenessLevel
-{
-    return YES;
-}
+@implementation MMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    //just testing this out
-    [self isAwesomeLevelHighEnough:4];//passes a 4 to isAwesomeLeve... and gets YES back
-    
-    //self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    //the line above is equivalent to the line below.
-    [self setWindow:[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]]];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         self.viewController = [[MMViewController alloc] initWithNibName:@"MMViewController_iPhone" bundle:nil];
     } else {

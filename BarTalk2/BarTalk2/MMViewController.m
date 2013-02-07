@@ -1,6 +1,6 @@
 //
 //  MMViewController.m
-//  barTalk
+//  BarTalk2
 //
 //  Created by David Johnston on 2/6/13.
 //  Copyright (c) 2013 David Johnston. All rights reserved.
@@ -20,27 +20,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    //change background to black
-	[[self view] setBackgroundColor:[UIColor blackColor]];
+    //change background to orange
+	[[self view] setBackgroundColor:[UIColor orangeColor]];
     
-    // initiallize our awesome text view
-    awesomeTextStuff = [[MMUITextField alloc] initWithFrame:CGRectMake(0, 200, 300, 50)];
+    //initialize our text box
+    awesomeTextStuff = [[MMUITextField alloc] initWithFrame:CGRectMake(0, 100, 300, 100)];
+    
     //internet code for keyboard done fix
     [awesomeTextStuff setDelegate:self];
+    
     //add the text field to our view
     [[self view] addSubview:awesomeTextStuff];
-    
-    
-    
+                        
     // Do any additional setup after loading the view, typically from a nib.
+    
 }
-
-- (BOOL)textFieldShouldReturn:(UITextField *)textField
-{
-    [textField resignFirstResponder];
-    return YES;
-}
-
 
 - (void)didReceiveMemoryWarning
 {
