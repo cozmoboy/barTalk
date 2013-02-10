@@ -20,6 +20,7 @@
 		6B635CF316C3442A003C4813 /* MMViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B635CF116C3442A003C4813 /* MMViewController_iPhone.xib */; };
 		6B635CF616C3442A003C4813 /* MMViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B635CF416C3442A003C4813 /* MMViewController_iPad.xib */; };
 		6B635CFE16C345F6003C4813 /* MMUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B635CFD16C345F6003C4813 /* MMUITextField.m */; };
+		6BC901D916C8027F002FE095 /* TikiHeadFinal2in.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BC901D816C8027F002FE095 /* TikiHeadFinal2in.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		6B635CF516C3442A003C4813 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MMViewController_iPad.xib; sourceTree = "<group>"; };
 		6B635CFC16C345F6003C4813 /* MMUITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMUITextField.h; sourceTree = "<group>"; };
 		6B635CFD16C345F6003C4813 /* MMUITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMUITextField.m; sourceTree = "<group>"; };
+		6BC901D816C8027F002FE095 /* TikiHeadFinal2in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TikiHeadFinal2in.png; path = "../../../../Dropbox/Programming Class/TikiHeadFinal2in.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		6B635CDD16C3442A003C4813 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6BC901D816C8027F002FE095 /* TikiHeadFinal2in.png */,
 				6B635CDE16C3442A003C4813 /* BarTalk2-Info.plist */,
 				6B635CDF16C3442A003C4813 /* InfoPlist.strings */,
 				6B635CE216C3442A003C4813 /* main.m */,
@@ -173,6 +176,7 @@
 				6B635CED16C3442A003C4813 /* Default-568h@2x.png in Resources */,
 				6B635CF316C3442A003C4813 /* MMViewController_iPhone.xib in Resources */,
 				6B635CF616C3442A003C4813 /* MMViewController_iPad.xib in Resources */,
+				6BC901D916C8027F002FE095 /* TikiHeadFinal2in.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +323,7 @@
 				6B635CFB16C3442A003C4813 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

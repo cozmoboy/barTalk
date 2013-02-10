@@ -14,10 +14,12 @@
     if (self = [super initWithFrame:frame]) {
         //[self setFont:[UIFont systemFontOfSize:60]];
         [self setBorderStyle:UITextBorderStyleNone];
-        [self setTextColor:[UIColor yellowColor]];
+        [self setTextColor:[UIColor blackColor]];
         [self setTextAlignment:NSTextAlignmentCenter];
         [self setAdjustsFontSizeToFitWidth:YES];
         [self setFont:[UIFont boldSystemFontOfSize:60]];
+        [self setPlaceholder:@"Type here..."];
+        //[self setReturnKeyType:UIReturnKeyDone];
         return self;
     }
 }
